@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(31, 31, 31);
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.indent {
+    text-indent: 40px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(29, 0, 0);
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+}
+
+strong {
+    color: lightgray;
+}
+
+h1 {
+    color: lightgray;
+}
+
+h3 {
+    color: lightgray;
+}
+
+p {
+    color: lightgray;
+}
+
+h2 {
+    color: lightgray;
+}
+
+.container {
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+    vertical-align: top;
+    word-wrap: break-word;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #9b9b9b;
+}
